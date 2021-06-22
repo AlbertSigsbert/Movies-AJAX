@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+body{
+    background-image: url('img/blackpanther.jpg');
+}
+/* Mobile device with min-heght 800px */
+@media only screen and (min-height: 800px){
+     body{
+         background-image: url('img/bp-long.jpg');
+     }
+}
+/* Mobile device with max-width 500px */
+@media only screen and (max-width:540px) {
+     body{
+         background-image: url('img/bp-long.jpg');
+     }
+}
+/* iPad on Portrait */
+@media all 
+and (device-width: 768px)
+and (device-height: 1024px)
+and (orientation:portrait) {
+   body{
+    background-image: url('img/blackpanther.jpg');
+   } 
+}
+
+/* iPad Pro Portrait */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: portrait) {
+    body{
+        background-image: url('img/blackpanther.jpg');
+        height: 100vh;
+       } 
+    
+}
+
+#movie-btn , #movies-btn{
+    background-color: #032e42;
+    outline: none;
+    transition: all .5s ease-in-out ;
+}
+/* .overview{
+    font-family: 'Montserrat', sans-serif;
+} */
+#movie-btn:hover , #movies-btn:hover{
+     background-color: #1c3668;
+}
