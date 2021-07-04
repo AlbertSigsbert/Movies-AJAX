@@ -14,12 +14,12 @@ Movies web app using AJAX requests on JSON file
 
             This is a desktop View.
 
-<img src="img/book-list-desktop.png">
+<img src="img/Desktop.png">
 
              This is for mobile view.
 
 <p align="center">
-   <img src="img/book-list-mobile.png" height="500px">
+   <img src="img/mobile.png" height="500px">
   </p>
   
 ### Links
