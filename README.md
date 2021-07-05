@@ -8,7 +8,7 @@ Movies web app using AJAX requests on JSON file
 
 
 ### Preview
-![BookList Demo](img/BookList.gif)
+![Demo](img/AM-Movies-AJAX.gif)
 
 ### Screenshot
 
